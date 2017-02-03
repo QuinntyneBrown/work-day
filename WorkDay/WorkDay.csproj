@@ -199,6 +199,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiConfiguration.cs" />
+    <Compile Include="Data\Models\ILoggable.cs" />
     <Compile Include="Features\Users\AddOrUpdateRoleCommand.cs" />
     <Compile Include="Features\Users\AddOrUpdateUserCommand.cs" />
     <Compile Include="Features\Users\GetRoleByIdQuery.cs" />
@@ -257,6 +258,10 @@
     <Compile Include="Features\TimeManagement\RemoveTimeOffCommand.cs" />
     <Compile Include="Features\TimeManagement\TimeOffApiModel.cs" />
     <Compile Include="Features\TimeManagement\TimeOffController.cs" />
+    <Compile Include="Migrations\TimeOffConfiguration.cs" />
+    <Compile Include="Migrations\EmployeeConfiguration.cs" />
+    <Compile Include="Migrations\UserConfiguration.cs" />
+    <Compile Include="Migrations\RoleConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
